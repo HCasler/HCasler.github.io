@@ -16,15 +16,18 @@
     width:48%;
     float:left;
     text-align:left;
+    vertical-align: middle;
+    margin:1%;
 }
 
 #socialIcons {
     width:48%;
     color:#ffffff;
     text-align:right;
-
+    margin:.5%;
 }
 
 .socialIcon {
     height:1.5em;
+    vertical-align: middle;
 }
