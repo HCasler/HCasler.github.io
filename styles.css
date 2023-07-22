@@ -1,12 +1,31 @@
 #pageHeader {
     width:100%;
+    background-color:#330033;
+    display:flex;
+    margin: 0;
+    padding: 0;
+    top:0;
+    left: 0;
+    right: 0;
+    font-size: calc((1.4 - 1) * 1.2vw + 1rem);
+    font-size: 2rem;
+    color:#ffffff;
 }
 
 #topNameBox {
-    width:50%;
+    width:45%;
     float:left;
+    margin:1%
 }
 
 #socialIcons {
-    width:50%;
+    width:45%;
+    color:#ffffff;
+    text-align:right;
+    margin:.5%;
+
+}
+
+.socialIcon {
+    height:1.5em;
 }
