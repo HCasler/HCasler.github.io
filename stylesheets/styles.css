@@ -1,6 +1,9 @@
+body {
+    margin:0;
+}
+
 #pageHeader {
     width:100%;
-    background-color:#330033;
     display:flex;
     margin: 0;
     padding: 0;
@@ -9,20 +12,19 @@
     right: 0;
     font-size: calc((1.4 - 1) * 1.2vw + 1rem);
     font-size: 2rem;
-    color:#ffffff;
 }
 
 #topNameBox {
-    width:48%;
+    width:65%;
     float:left;
-    margin:1%
+    margin:.5em;
 }
 
 #socialIcons {
-    width:48%;
+    width:31%;
     color:#ffffff;
     text-align:right;
-    margin:.5%;
+    margin:.25em
 
 }
 

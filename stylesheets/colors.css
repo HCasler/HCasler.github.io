@@ -1,0 +1,31 @@
+
+/*purple header*/
+body {
+    background-color:#faf0e6;
+}
+
+#pageHeader {
+    background-color:#330033;
+    color:#ffffff;
+}
+
+/*green header
+body {
+    background-color:#f8f8ff;
+}
+
+#pageHeader {
+    background-color:#004242;
+    color:#ffffff;
+}
+
+/*blue header
+body {
+    background-color:#f0f8ff;
+}
+
+#pageHeader {
+    background-color:#545aa7;
+    color:#ffffff;
+}
+*/
