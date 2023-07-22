@@ -7,22 +7,21 @@
     top:0;
     left: 0;
     right: 0;
-    font-size: calc((1.4 - 1) * 1.2vw + 1rem);
     font-size: 2rem;
     color:#ffffff;
+    justify-content: center;
 }
 
 #topNameBox {
-    width:45%;
+    width:48%;
     float:left;
-    margin:1%
+    text-align:left;
 }
 
 #socialIcons {
-    width:45%;
+    width:48%;
     color:#ffffff;
     text-align:right;
-    margin:.5%;
 
 }
 
