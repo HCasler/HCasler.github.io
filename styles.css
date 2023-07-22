@@ -7,17 +7,15 @@
     top:0;
     left: 0;
     right: 0;
+    font-size: calc((1.4 - 1) * 1.2vw + 1rem);
     font-size: 2rem;
     color:#ffffff;
-    justify-content: center;
 }
 
 #topNameBox {
     width:48%;
     float:left;
-    text-align:left;
-    vertical-align: middle;
-    margin:1%;
+    margin:1%
 }
 
 #socialIcons {
@@ -25,9 +23,9 @@
     color:#ffffff;
     text-align:right;
     margin:.5%;
+
 }
 
 .socialIcon {
     height:1.5em;
-    vertical-align: middle;
 }
