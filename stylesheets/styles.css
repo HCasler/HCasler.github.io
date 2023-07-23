@@ -87,6 +87,7 @@ a {
 
 #headshotContainer {
     text-align: center;
+    margin-top: 8rem;
 }
 
 #headshot {
@@ -96,10 +97,11 @@ a {
 
 .aboutMeContent {
     margin-top:2rem;
-    margin-bottom:2.5rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
+    margin-bottom:4rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
     text-align: center;
+    font-size:1.25rem;
 }
 
 @media all and (max-width:60rem) {
@@ -143,5 +145,21 @@ a {
     .contentHeadline {
         font-size: 1.5rem;
         margin-top: 10rem;
+    }
+
+    .aboutMeContent {
+        font-size:1rem;
+    }
+
+    #aboutMeHeadline {
+        margin-top: 4rem;
+    }
+
+    #headshotContainer {
+        margin-top: 10rem;
+    }
+
+    #headshot {
+        width: 40%;
     }
 }
