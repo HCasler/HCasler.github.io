@@ -51,9 +51,8 @@ a {
 }
 
 .navLink {
-    margin:.5rem;
-    margin-top: 5%;
-    margin-bottom: 5%;
+    line-height: 4rem;
+    text-indent: .5rem;
 }
 
 @media all and (max-width:60rem) {
@@ -74,7 +73,7 @@ a {
     }
 
     .navLink {
-        margin-top: .5rem;
-        margin-bottom: .5rem;
+        line-height: 2.5rem;
+        text-indent: 1rem;
     }
 }
