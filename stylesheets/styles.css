@@ -10,8 +10,8 @@ body {
     top:0;
     left: 0;
     right: 0;
-    font-size: calc((1.4 - 1) * 1.2vw + 1rem);
     font-size: 2rem;
+    height:4.5rem;
 }
 
 #topNameBox {
@@ -34,6 +34,7 @@ body {
 
 #mainSection {
     display:flex;
+    top:4.5rem;
 }
 
 /*sidebar*/
@@ -41,9 +42,10 @@ body {
     height:100%;
     width:22rem;
     z-index:1;
-    top:0;
     left:0;
     font-size:1.5rem;
+    position:absolute;
+    top:4.5rem;
 }
 
 a {
@@ -53,6 +55,11 @@ a {
 .navLink {
     line-height: 4rem;
     text-indent: .5rem;
+}
+
+#content {
+    position:absolute;
+    left:22rem;
 }
 
 @media all and (max-width:60rem) {
@@ -70,10 +77,16 @@ a {
         font-size:1.5rem;
         display:flex;
         flex-wrap: wrap;
+        position:static;
+        
     }
 
     .navLink {
         line-height: 2.5rem;
         text-indent: 1rem;
+    }
+    
+    #content {
+        left: 0;
     }
 }

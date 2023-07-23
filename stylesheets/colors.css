@@ -9,13 +9,27 @@ body {
     color:#ffffff;
 }
 
+#navbar {
+    background-color: #330033;
+    border-top: 1px solid white;
+}
+
 .navLink {
-    color:#330033;
+    color:#faf0e6;
+    border-bottom: 1px solid white;
 }
 
 .navLink:hover {
     background-color: #330033;
     color:#faf0e6;
+    background-color: #ffa812;
+    color:#330033;
+}
+
+@media all and (max-width:60rem) {
+    .navLink {
+        border-bottom: 0px;
+    }
 }
 
 /*green header
