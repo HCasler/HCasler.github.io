@@ -6,7 +6,7 @@ body {
 
 #pageHeader {
     background-color:#330033;
-    color:#ffffff;
+    color:#faf0e6;
 }
 
 #navbar {
@@ -23,6 +23,10 @@ body {
     background-color: #330033;
     color:#faf0e6;
     background-color: #ffa812;
+    color:#330033;
+}
+
+.contentHeadline {
     color:#330033;
 }
 

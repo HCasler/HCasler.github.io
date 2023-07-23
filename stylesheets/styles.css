@@ -60,6 +60,24 @@ a {
 #content {
     position:absolute;
     left:22rem;
+    width:calc(100% - 22rem);
+}
+
+.pageContent {
+    width:100%;
+        
+}
+    
+.contentHeadline {
+    width:100%;
+    text-align: center;
+    margin-top: 10rem;
+    font-size:2rem;
+}
+
+.contentSection {
+    margin-top:2rem;
+    margin-bottom:2rem;
 }
 
 @media all and (max-width:60rem) {
@@ -88,5 +106,10 @@ a {
     
     #content {
         left: 0;
+        width: 100%;
+    }
+
+    .contentHeadline {
+        font-size: 1.5rem;
     }
 }
