@@ -85,6 +85,23 @@ a {
     margin-right: 1rem;
 }
 
+#headshotContainer {
+    text-align: center;
+}
+
+#headshot {
+    border-radius: 50%;
+    width: 25%;
+}
+
+.aboutMeContent {
+    margin-top:2rem;
+    margin-bottom:2.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    text-align: center;
+}
+
 @media all and (max-width:60rem) {
     /*topbar*/
 
