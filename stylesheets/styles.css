@@ -90,6 +90,11 @@ a {
 
     #pageHeader {
         position:static;
+        font-size: 2rem;
+    }
+
+    #topNameBox {
+        margin:.375em;
     }
 
     #mainSection {
