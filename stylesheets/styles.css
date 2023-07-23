@@ -10,14 +10,15 @@ body {
     top:0;
     left: 0;
     right: 0;
-    font-size: 2rem;
+    font-size: 2.75rem;
     height:4.5rem;
+    position: fixed;
 }
 
 #topNameBox {
     width:65%;
     float:left;
-    margin:.5em;
+    margin:.25em;
 }
 
 #socialIcons {
@@ -29,7 +30,7 @@ body {
 }
 
 .socialIcon {
-    height:1.5em;
+    height:3rem;
 }
 
 #mainSection {
@@ -46,6 +47,7 @@ body {
     font-size:1.5rem;
     position:absolute;
     top:4.5rem;
+    position: fixed;
 }
 
 a {
@@ -71,17 +73,23 @@ a {
 .contentHeadline {
     width:100%;
     text-align: center;
-    margin-top: 10rem;
-    font-size:2rem;
+    margin-top: 5rem;
+    font-size:1.5rem;
 }
 
 .contentSection {
     margin-top:2rem;
-    margin-bottom:2rem;
+    margin-bottom:2.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
 @media all and (max-width:60rem) {
     /*topbar*/
+
+    #pageHeader {
+        position:static;
+    }
 
     #mainSection {
         flex-direction: column;
@@ -111,5 +119,6 @@ a {
 
     .contentHeadline {
         font-size: 1.5rem;
+        margin-top: 10rem;
     }
 }
