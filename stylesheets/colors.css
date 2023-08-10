@@ -30,9 +30,7 @@ a {
     color:#330033;
 }
 
-#navOnContentPage {
-    outline-color:330033;
-}
+
 
 .contentHeadline {
     color:#330033;
@@ -47,6 +45,17 @@ a {
         color:#ffa812;
         background-color:#330033;
     }
+}
+
+#navOnContentPage {
+    background-color:#330033;
+    outline-color:#330033;
+    border-bottom: 0px;
+}
+
+#navOnContentPage:hover {
+    background-color: #ffa812;
+    color:#330033;
 }
 
 /*green header
