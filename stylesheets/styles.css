@@ -107,6 +107,13 @@ a {
     font-size:1.25rem;
 }
 
+#navOnContentPage {
+    outline-style: solid;
+    outline-width: 1px;
+    width: 25em;
+    margin-left:calc(50% - 12.5em);
+}
+
 @media all and (max-width:60rem) {
     /*topbar*/
 
@@ -161,11 +168,10 @@ a {
     #headshot {
         width: 40%;
     }
+
+    #navOnContentPage {
+        width:100%;
+        margin:0;
+    }
 }
 
-#navOnContentPage {
-    outline-style: solid;
-    outline-width: 1px;
-    width: 25em;
-    margin-left:calc(50% - 12.5em);
-}
