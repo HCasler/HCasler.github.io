@@ -60,6 +60,11 @@ a {
     text-indent: .5rem;
 }
 
+#navOnContentPage {
+    outline-style: solid;
+    outline-width: 1px;
+}
+
 #content {
     position:absolute;
     left:22rem;
