@@ -3,48 +3,33 @@
 
     <!-- skill summary -->
     <div class="contentSection">
-        <h3>I have a broad range of technical skills.</h3>
-        <p>I have honed my skills in industry and academia, and in a life of truly enjoying coding. On this page I talk a little bit about these skills and where they came from, but there are also a few technologies that I have worked with for so long that I couldn't tell you exactly how I got started with them. These are:
-            <ul>
-                <li> Linux: I have been using some flavor of Linux on my personal and work computers at least since 2010</li>
-                <li> Python: my main language for calculations, data analysis, and testing things out. I probably started using it around 2010 </li>
-                <li> Git: I have been using git almost as long as I've used Python</li>
-            </ul>
-        </p>
+    </p>I have been writing code in one fashion or another for well over a decade, but my true professional engineering experience began in 2013. That year, a consumer cloud storage company called MiMedia took a gamble on a fresh Master's grad, and gave me the greatest opportunity to become a software professional that anyone could hope for. I started out just hoping for a job that could make me a decent living, and ended with a love of programming and building new things. This has carried me through my stint in academia, and I hope to continue loving what I do for the rest of my engineering career. Here, I'm going to tell the story of how I built up the skills I have. You can check my <a href=https://www.linkedin.com/in/helenka-casler/ target="_blank" rel="noopener noreferrer">LinkedIn</a> for a more thorough list of my professional accomplishments.</p>
+    </div>
+
+
+    <div class="contentSection">
+        <h3>Before my big break (2010 - 2012)</h3>
+        <p>Sometime in undergrad &mdash; so before 2010 &mdash; I began using <b>Linux</b> as my main OS for both personal and work purposes. I don't remember any big reason for making the switch. Very likely I just thought it would be a fun thing to try, and decided to keep doing it after a while. It was also in undergrad that I made my first few steps into using <b>Python</b>, though it was really during my Master's degree, starting in 2010, when I began using it extensively. Our <b>physics</b> graduate student orientation at Drexel (where I did my Master's) included a brief introduction to Python, and I wound up using it for calculations in both homework assignments and research. I also started using <b>Git</b> at this time.</p>
     </div>
 
     <!-- industry experience -->
     <div class="contentSection">
-        <h3>I have industry experience in backend development and streaming media.</h3>
-        <p>My first professional engineering role was in consumer cloud storage, where I was part of the API development team. One of my major projects was developing a streaming media solution, so users could view their own stored videos from any device. This meant learning all aspects of the streaming process, from the basics of streaming protocols, to how to extract the correct data from storage at the correct moment, to how to process new videos for optimized streaming. Other projects included designing an editable photo album feature, and adding synchronous in-browser notifications for users. Some of the skills I gained from this role include:
-            <ul>
-                <li> Java, Spring, and Maven</li>
-                <li> SQL </li>
-                <li> Video-on-demand streaming</li>
-                <li> Agile development</li>
-                <li> Unit testing</li>
-            </ul>
-        </p>
+    <h3>The big break (2013 - 2016)</h3>
+    <p>I joined MiMedia during a time when they were beginning to revamp their entire product, including their web app, mobile apps, and platform. I was briefly an intern, but I learned fast enough that I soon became a full-time backend engineer. We primarily worked in <b>Java</b>, though I continued using Python when I needed a quick proof-of-concept or to sketch out some functionality. Our development cycle followed an <b>Agile</b> pattern, and I learned to be meticulous about <b>unit testing</b>. I also got very comfortable with <b>SQL</b>, and constantly used <b>Spring Framework</b>.</p> 
+    <p>One of my largest projects was building the server-side platform for <b>video-on-demand (VOD) streaming</b> &mdash; since we were a consumer cloud storage solution, we needed our users to be able to stream their own videos to any of their devices through our app. I was lucky enough to be part of this project from the very beginning, from deciding which streaming protocols to support to implementing them, and even developing a process for ingesting user video content so it could be streamed efficiently. I became fluent in the <b>HLS protocol</b> and the <b>MP4</b> file format. In learning about these things and how a video file might be prepared for streaming, I made regular use of <b>FFmpeg</b>.</p>
     </div>
 
-    <!-- industry experience -->
+    <!-- academic experience -->
     <div class="contentSection">
-        <h3>I built a suite of additional coding and continuous integration skills during my graduate studies.</h3>
-        <p>High-energy physics experiments create large codebases for simulation and data analysis, and my work involved contributing to this code in several ways. First, I developed a simulation model of my subsystem in code and integrated it into the broader experiment's simulation code. Additionally, I took on the role of Continuous Integration Manager for the experimental collaboration, putting me in charge of our system for ensuring new code contributions could be safely merged in. I took the opportunity to make some improvements to the CI system, including adding a testing process to a new repository, improving system messaging to developers, and updating documentation. Some of the skills I gained from this role include:
-            <ul>
-                <li> C++ and Geant4</li>
-                <li> Bash scripting</li>
-                <li> ROOT </li>
-                <li> Jenkins workflows</li>
-                <li> the GitHub API</li>
-                <li> integration and end-to-end testing</li>
-                <li> LaTeX </li>
-            </ul>
-        </p>
+    <h3>The academic detour (2016 - 2023)</h3>
+    <p>Although I was enjoying my work in industry, I had always felt like I had unfinished business in physics, and in 2016 I decided it was time to get a PhD. The majority of my doctoral research was part of the <a href="https://mu2e.fnal.gov/" target="_blank" rel="noopener noreferrer">Mu2e Experiment</a>, a high-energy physics experiment at Fermi National Accelerator Laboratory, whose goal is to make a precision measurement of an extremely rare, never-before-seen conversion of a muon to an electron. The collaboration used <b>C++</b> for their simulation and event-reconstruction code, using the <b>Geant4</b> toolkit for the <b>physics simulation</b> portion. However, <b>Python</b> remained my language of choice, and I used it to perform calculations and analysis as often as possible. Luckily for me, there are Python bindings for <b>ROOT</b>, our data analysis framework. I used <b>LaTeX</b> markup to prepare clean-looking reports, including my dissertation. Even now, I use it to format my resume.</p>
+    <p>After contributing a model of my own thesis work's detector system to the main codebase, I was asked to take on the role of <b>Continuous Integration</b> manager. The collaboration had been looking for someone to replace the previous CI manager, who was graduating, and thought I fit the bill. This allowed me to get much more familiar with the <b>Jenkins</b> workflows used to perform tests on code contributions, and the way we used the <b>GitHub API</b> to get information about pull requests and communicate with PR authors. The code that controlled this communication, and the tests themselves, was written in a combination of python and <b>Bash</b>. I had used Bash before to write the odd install or start script, but this got me much more comfortable with it.</p> 
     </div>
 
-    <!-- contact pitch -->
-    <div class="contentSection">
-        <h3>If these skills seem like a good fit for your organization, feel free to <a href="#" onclick="displayPageContent('contentPages/contact.html')">contact me</a>, or you can find me on <a href=https://www.linkedin.com/in/helenka-casler/>LinkedIn</a>.</h3>
-    </div>
+<!-- current position -->
+<div class="contentSection">
+    <h3>Where I am now (2023 - present)</h3>
+     <p>Eventually, grad students have to graduate, and I was no exception. I defended my dissertation on December 16, 2022, and officially received my PhD in February of 2023. I am currently a software engineer at <a href="https://www.courierhealth.com/" target="_blank" rel="noopener noreferrer">Courier Health</a>, a healthcare startup focusing on patient services in biopharma. Despite no longer officially being a student, I have not stopped learning. I'm currently building my knowlege of modern <b>cloud infrastructure</b> in two ways. The first is professional experience; Courier Health makes extensive use of <b>Amazon's AWS</b> infrastructure, including taking an <b>infrastructure as code</b> approach to ensuring the environment is set up correctly and reproducibly. I have also been working on my own. This site is currently hosted on <b>Azure</b>, and includes both a database and object storage backend, all hosted in the cloud (and written using <b>Django</b>).</p>
+ </div>
+
 </div>
