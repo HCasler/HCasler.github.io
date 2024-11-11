@@ -4,7 +4,7 @@ body {
     background-color:#faf0e6;
 }
 
-#pageHeader {
+#pageHeader, a#topNameLink{
     background-color:#330033;
     color:#faf0e6;
 }
