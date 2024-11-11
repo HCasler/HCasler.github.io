@@ -17,16 +17,17 @@ body {
 }
 
 #topNameBox {
-    width:75%;
+    width:calc(100% - 8rem);
     float:left;
     margin:.25em;
 }
 
 #socialIcons {
-    width:21%;
+    width:8rem;
     color:#ffffff;
     text-align:right;
-    margin:.25em
+    margin:.25em;
+    float:right;
 
 }
 
@@ -39,6 +40,10 @@ body {
     top:4.5rem;
 }
 
+#navBarCollapser {
+    display: none;
+}
+
 /*sidebar*/
 #navbar {
     height:100%;
@@ -49,6 +54,7 @@ body {
     position:absolute;
     top:4.5rem;
     position: fixed;
+    display: block;
 }
 
 a {
@@ -115,7 +121,6 @@ a {
 }
 
 @media all and (max-width:60rem) {
-    /*topbar*/
 
     #pageHeader {
         position:static;
@@ -130,21 +135,23 @@ a {
         flex-direction: column;
     }
 
-    #navbar {
+    #navBarCollapser {
+        display:block;
         z-index: 1;
         top:0;
         left:0;
-        width:100%;
+        width:6rem;
         font-size:1.5rem;
         display:flex;
         flex-wrap: wrap;
         position:static;
-        
+        line-height: 2.5rem;
+        text-indent: .5rem;
+        font-family: inherit;
     }
 
-    .navLink {
-        line-height: 2.5rem;
-        text-indent: 1rem;
+    #navbar {
+         display:none;
     }
     
     #content {
@@ -162,7 +169,7 @@ a {
     }
 
     #headshotContainer {
-        margin-top: 10rem;
+        margin-top: 7rem;
     }
 
     #headshot {
