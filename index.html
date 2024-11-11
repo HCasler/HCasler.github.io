@@ -15,15 +15,16 @@
 <body>
     <div id="pageHeader">
         <!-- will go across top -->
-        <div id="topNameBox">Helenka Casler</div>
-        <div id="socialIcons"><a href=https://www.linkedin.com/in/helenka-casler/><img class=socialIcon src=icons/In-White-96@2x.png></a></div>
+        <div id="topNameBox"><a href="index.html" id=topNameLink>Helenka Casler</a></div>
+        <div id="socialIcons"><a rel="me noopener noreferrer" href=https://hachyderm.io/@hcasler target="_blank"><img class=socialIcon src=icons/mastodon_logo-white.svg></a>&nbsp;<a href=https://www.linkedin.com/in/helenka-casler/ rel="noopener noreferrer" target="_blank"><img class=socialIcon src=icons/In-White-96@2x.png></a></div>
     </div>
 
     <div id="mainSection">
         <!-- everything other than the header -->
+        <!-- button to show/hide the nav bar on mobile -->
+        <button id="navBarCollapser" class="collapser" onclick="toggleNavBar()">Menu</button>
         <div id="navbar">
-            <!-- down side on desktop, across top on narrow screens -->
-            <a href="https://helenkacasler.com"><div class="navLink">New Website</div></a>
+            <!-- down side -->
             <a href="#" onclick="displayPageContent('contentPages/aboutMe.html')"><div class="navLink">About Me</div></a>
             <a href="#" onclick="displayPageContent('contentPages/coding.html')"><div class="navLink">Software Engineering</div></a>
             <a href="#" onclick="displayPageContent('contentPages/research.html')"><div class="navLink">My PhD Research</div></a>

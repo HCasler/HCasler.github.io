@@ -1,3 +1,14 @@
+// function to make navbar appear and disappear
+
+function toggleNavBar() {
+    var navBar = document.getElementById("navbar")
+    if (navBar.style.display !== "none") {
+      navBar.style.display = "none";
+    } else {
+      navBar.style.display = "block";
+    }
+}
+
 // function to bring up the content when clicking a link
 
 async function displayPageContent(subpage) {
@@ -11,4 +22,10 @@ async function displayPageContent(subpage) {
     // stick it on the page
     contentBase = document.getElementById("content");
     contentBase.innerHTML = newText;
+    // if there's a visible menu button, hide the navbar after clicking
+    var menuButton = document.getElementById("navBarCollapser");
+    var menuButtonDisplay = getComputedStyle(menuButton).display;
+    if (menuButtonDisplay !== "none") {
+        toggleNavBar();
+    }
 }
